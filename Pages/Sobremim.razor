@@ -1,0 +1,89 @@
+@page "/sobremim"
+
+<h2>👋 Sobre Mim</h2>
+
+<div class="sobremim-container">
+    <div class="profile-picture">
+        <img src="img/luis.jpeg" alt="Luis Duarte">
+    </div>
+    <div class="about-content">
+        <div class="about-text">
+            <p>Olá! Meu nome é <strong>Luis Duarte</strong>, sou apaixonado por tecnologia, desenvolvimento e análise de dados.</p>
+            <p>Atualmente, estou focado em aprimorar minhas habilidades em <strong>C#</strong> e <strong>.NET</strong>, desenvolvendo aplicações robustas e eficientes.</p>
+            <p>Além do desenvolvimento backend, também possuo interesse em <strong>segurança da informação</strong> e no <strong>mercado financeiro</strong>.</p>
+        </div>
+        
+        <!-- ✅ Área para logos das tecnologias -->
+        <div class="tech-icons">
+            <img src="img/cs.png" alt="C#" title="C#" />
+            <img src="img/python.png" alt="Python" title="Python" />
+            <img src="img/javascript.png" alt="JavaScript" title="JavaScript" />
+            <img src="img/React.png" alt="React" title="React" />
+        </div>
+    </div>
+</div>
+
+<style>
+/* ✅ Ajuste de layout principal */
+.sobremim-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    background-color: #0d0e10; /* 🔹 Cor de fundo XP */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ✅ Ajuste da imagem de perfil */
+.profile-picture img {
+    width: 220px; /* 🔹 Agora a imagem está maior */
+    height: 220px;
+    object-fit: cover; /* 🔹 Mantém o corte correto */
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+
+/* ✅ Ajuste do conteúdo de texto */
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ✅ Ajuste da caixa de texto */
+.about-text {
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* ✅ Adicionando destaque nos textos */
+.about-text strong {
+    color: #fba611; /* 🔹 Destaque XP */
+}
+
+/* ✅ Seção das tecnologias */
+.tech-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+/* ✅ Ajuste do tamanho das logos */
+.tech-icons img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* ✅ Efeito de hover */
+.tech-icons img:hover {
+    transform: scale(1.1);
+}
+</style>

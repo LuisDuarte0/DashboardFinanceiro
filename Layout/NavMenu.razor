@@ -7,22 +7,45 @@
     </div>
 </div>
 
+
+<div class="logo-container">
+    <img src="img/xp.png" alt="XP Investimentos">
+</div>
+
+        
 <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
+
     <nav class="nav flex-column">
+
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
                 <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
             </NavLink>
         </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/sobremim">
+                👋 Sobre Mim
+        </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="dashboard">
+                📊 Dashboard
+        </NavLink>
+
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="counter">
                 <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
             </NavLink>
         </div>
+
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="weather">
                 <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
             </NavLink>
+        </div>
+
         </div>
     </nav>
 </div>

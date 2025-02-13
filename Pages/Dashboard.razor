@@ -1,0 +1,61 @@
+@page "/dashboard"
+@using System.Text.Json
+
+<h2>📈 Dashboard Financeiro XP</h2>
+
+<div class="dashboard-container">
+    <div class="card">
+        <h3>IBOVESPA</h3>
+        <p>@ibovespa</p>
+    </div>
+    <div class="card">
+        <h3>Dólar (USD)</h3>
+        <p>@dolar</p>
+    </div>
+    <div class="card">
+        <h3>XP Investimentos</h3>
+        <p>@xpAtivo</p>
+    </div>
+</div>
+
+@code {
+    private string ibovespa = "Carregando...";
+    private string dolar = "Carregando...";
+    private string xpAtivo = "Carregando...";
+
+    protected override async Task OnInitializedAsync()
+    {
+        ibovespa = await BuscarCotacao("IBOV");
+        dolar = await BuscarCotacao("USD");
+        xpAtivo = await BuscarCotacao("XPBR31");
+    }
+
+    private async Task<string> BuscarCotacao(string ativo)
+{
+    string apiKey = "NF3RKPLTVYP2OC2X"; // Sua API Key real
+    string url = $"https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={ativo}.SA&apikey={apiKey}";
+
+    using HttpClient client = new HttpClient();
+    try
+    {
+        var response = await client.GetStringAsync(url);
+        var json = JsonDocument.Parse(response);
+
+        if (json.RootElement.TryGetProperty("Global Quote", out JsonElement globalQuote) &&
+            globalQuote.TryGetProperty("05. price", out JsonElement priceElement))
+        {
+            string price = priceElement.GetString();
+            return $"R$ {price}";
+        }
+        else
+        {
+            return "Erro ao obter cotação";
+        }
+    }
+    catch (Exception ex)
+    {
+        return $"Erro: {ex.Message}";
+    }
+}
+
+}
