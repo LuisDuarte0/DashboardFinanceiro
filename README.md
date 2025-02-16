@@ -26,14 +26,13 @@ O projeto foi construído com as seguintes tecnologias:
 - **APIs Financeiras**:
   - **[Brapi](https://brapi.dev/)** – API usada para buscar cotações do mercado.  
 - **CSS customizado** – Layout moderno e responsivo.  
-- **Git & GitHub** – Versionamento e controle do código.  
 
 ---
 
 ## 📂 Estrutura das Páginas  
 
 ### 📌 Sobre Mim  
-> Página que apresenta informações sobre o desenvolvedor **Luis Duarte**, sua trajetória, interesses e habilidades técnicas.
+> Página que apresenta algumas informações sobre mim :) 
 
 ### 📌 Dashboard  
 > Painel principal onde são exibidas cotações de **XP Investimentos, Itaú, Petrobras, Vale, Eletrobras** e outras ações do mercado financeiro.  
