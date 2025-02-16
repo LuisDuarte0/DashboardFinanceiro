@@ -1,0 +1,150 @@
+@page "/perfilinvestidor"
+
+<div class="container-perfil">
+    <h2 class="titulo-perfil">👤 Descubra seu Perfil de Investidor</h2>
+
+    @if (!iniciouTeste)
+    {
+        <div class="intro">
+            <p class="descricao-teste">
+                Este teste ajudará você a entender qual o seu perfil de investidor. Responda as perguntas abaixo 
+                e descubra se você é um investidor Conservador, Moderado ou Agressivo.
+            </p>
+            <button class="btn-iniciar" @onclick="IniciarTeste">🚀 Iniciar Teste</button>
+        </div>
+    }
+    else if (etapa < perguntas.Count)
+    {
+        <div class="card-pergunta">
+            <h3 class="pergunta">@perguntas[etapa].Texto</h3>
+
+            <div class="opcoes-container">
+                @foreach (var opcao in perguntas[etapa].Opcoes)
+                {
+                    <button class="btn-opcao" @onclick="() => SelecionarOpcao(opcao.Pontos)">
+                        @opcao.Texto
+                    </button>
+                }
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="resultado-final">
+            <h2 class="titulo-resultado">🎯 Seu Perfil de Investidor:</h2>
+            <p class="perfil-texto">@perfilInvestidor</p>
+            <button class="btn-reiniciar" @onclick="ReiniciarQuestionario">🔄 Refazer Teste</button>
+        </div>
+    }
+</div>
+
+@code {
+    private bool iniciouTeste = false;
+    private int etapa = 0;
+    private int pontuacaoTotal = 0;
+    private string perfilInvestidor = "";
+
+    private List<Pergunta> perguntas = new()
+    {
+        new Pergunta("1️⃣ Qual o seu objetivo ao investir?", new List<Opcao> {
+            new Opcao("Preservar meu dinheiro", 1),
+            new Opcao("Rentabilidade estável", 2),
+            new Opcao("Lucro alto, aceito riscos", 3)
+        }),
+        new Pergunta("2️⃣ Quanto tempo pretende manter o investimento?", new List<Opcao> {
+            new Opcao("Menos de 1 ano", 1),
+            new Opcao("1 a 5 anos", 2),
+            new Opcao("Mais de 5 anos", 3)
+        }),
+        new Pergunta("3️⃣ Como se sentiria se seu investimento caísse 10% em um mês?", new List<Opcao> {
+            new Opcao("Venderia tudo", 1),
+            new Opcao("Esperaria recuperar", 2),
+            new Opcao("Compraria mais", 3)
+        }),
+        new Pergunta("4️⃣ Qual sua experiência com investimentos?", new List<Opcao> {
+            new Opcao("Nenhuma", 1),
+            new Opcao("Alguma experiência", 2),
+            new Opcao("Muita experiência", 3)
+        }),
+        new Pergunta("5️⃣ Você tem reserva de emergência?", new List<Opcao> {
+            new Opcao("Não", 1),
+            new Opcao("Parcialmente", 2),
+            new Opcao("Sim, totalmente", 3)
+        }),
+        new Pergunta("6️⃣ Como lida com oscilações do mercado?", new List<Opcao> {
+            new Opcao("Evito riscos", 1),
+            new Opcao("Aceito moderadamente", 2),
+            new Opcao("Não me preocupo", 3)
+        }),
+        new Pergunta("7️⃣ Você investiria em ativos de alto risco?", new List<Opcao> {
+            new Opcao("Nunca", 1),
+            new Opcao("Talvez", 2),
+            new Opcao("Sim", 3)
+        }),
+        new Pergunta("8️⃣ Caso um investimento desvalorize 20% em um mês, o que faria?", new List<Opcao> {
+            new Opcao("Venderia tudo", 1),
+            new Opcao("Esperaria recuperar", 2),
+            new Opcao("Compraria mais", 3)
+        }),
+        new Pergunta("9️⃣ Qual sua idade?", new List<Opcao> {
+            new Opcao("Acima de 60 anos", 1),
+            new Opcao("Entre 30 e 60 anos", 2),
+            new Opcao("Menos de 30 anos", 3)
+        }),
+        new Pergunta("🔟 Qual percentual de sua renda mensal pode investir?", new List<Opcao> {
+            new Opcao("Menos de 10%", 1),
+            new Opcao("10% a 30%", 2),
+            new Opcao("Acima de 30%", 3)
+        }),
+    };
+
+    private void IniciarTeste()
+    {
+        iniciouTeste = true;
+    }
+
+    private void SelecionarOpcao(int pontos)
+    {
+        pontuacaoTotal += pontos;
+        etapa++;
+
+        if (etapa == perguntas.Count)
+        {
+            if (pontuacaoTotal <= 10) perfilInvestidor = "🛡️ Conservador: Prioriza segurança e evita riscos.";
+            else if (pontuacaoTotal <= 20) perfilInvestidor = "⚖️ Moderado: Busca equilíbrio entre risco e segurança.";
+            else perfilInvestidor = "🚀 Agressivo: Tolera riscos para buscar maior rentabilidade.";
+        }
+    }
+
+    private void ReiniciarQuestionario()
+    {
+        iniciouTeste = false;
+        etapa = 0;
+        pontuacaoTotal = 0;
+        perfilInvestidor = "";
+    }
+
+    private class Pergunta
+    {
+        public string Texto { get; }
+        public List<Opcao> Opcoes { get; }
+
+        public Pergunta(string texto, List<Opcao> opcoes)
+        {
+            Texto = texto;
+            Opcoes = opcoes;
+        }
+    }
+
+    private class Opcao
+    {
+        public string Texto { get; }
+        public int Pontos { get; }
+
+        public Opcao(string texto, int pontos)
+        {
+            Texto = texto;
+            Pontos = pontos;
+        }
+    }
+}
