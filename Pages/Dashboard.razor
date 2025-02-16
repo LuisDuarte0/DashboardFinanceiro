@@ -1,61 +1,134 @@
 @page "/dashboard"
 @using System.Text.Json
+@using Blazored.LocalStorage 
+@inject ILocalStorageService _localStorage
 
 <h2>📈 Dashboard Financeiro XP</h2>
+<p class="ultima-atualizacao">📅 Última atualização: @ultimaAtualizacao</p>
 
+<!-- ✅ Seção de Favoritos -->
+@if (favoritos.Count > 0)
+{
+    <h3>⭐ Favoritos</h3>
+    <div class="dashboard-container">
+        @foreach (var ativo in ativos.Where(a => favoritos.Contains(a.Simbolo)))
+        {
+            <div class="card">
+                <div class="card-header">
+                    <h3>@ativo.Nome</h3>
+                    <button class="favorite-btn" @onclick="() => ToggleFavorito(ativo.Simbolo)">
+                        ⭐
+                    </button>
+                </div>
+                <p>@ativo.Preco <span style="color: @(ativo.Variacao >= 0 ? "lightgreen" : "red")">
+                    @(ativo.Variacao >= 0 ? "📈" : "📉") @ativo.Variacao.ToString("F2")%</span>
+                </p>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>📌 Nenhum favorito adicionado. Clique na estrela para favoritar um ativo.</p>
+}
+
+<!-- ✅ Seção de Ações Disponíveis -->
+<h3>📊 Ações Disponíveis</h3>
 <div class="dashboard-container">
-    <div class="card">
-        <h3>IBOVESPA</h3>
-        <p>@ibovespa</p>
-    </div>
-    <div class="card">
-        <h3>Dólar (USD)</h3>
-        <p>@dolar</p>
-    </div>
-    <div class="card">
-        <h3>XP Investimentos</h3>
-        <p>@xpAtivo</p>
-    </div>
+    @foreach (var ativo in ativos.Where(a => !favoritos.Contains(a.Simbolo)))
+    {
+        <div class="card">
+            <div class="card-header">
+                <h3>@ativo.Nome</h3>
+                <button class="favorite-btn" @onclick="() => ToggleFavorito(ativo.Simbolo)">
+                    @(favoritos.Contains(ativo.Simbolo) ? "⭐" : "☆")
+                </button>
+            </div>
+            <p>@ativo.Preco <span style="color: @(ativo.Variacao >= 0 ? "lightgreen" : "red")">
+                @(ativo.Variacao >= 0 ? "📈" : "📉") @ativo.Variacao.ToString("F2")%</span>
+            </p>
+        </div>
+    }
 </div>
 
 @code {
-    private string ibovespa = "Carregando...";
-    private string dolar = "Carregando...";
-    private string xpAtivo = "Carregando...";
+    private string ultimaAtualizacao = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
+
+    private List<Ativo> ativos = new List<Ativo>
+    {
+        new Ativo { Nome = "XP Investimentos (XPBR31)", Simbolo = "XPBR31" },
+        new Ativo { Nome = "Itaú (ITUB4)", Simbolo = "ITUB4" },
+        new Ativo { Nome = "Eletrobras (ELET3)", Simbolo = "ELET3" },
+        new Ativo { Nome = "Petrobras (PETR4)", Simbolo = "PETR4" },
+        new Ativo { Nome = "Vale (VALE3)", Simbolo = "VALE3" },
+        new Ativo { Nome = "Gerdau (GGBR4)", Simbolo = "GGBR4" },
+        new Ativo { Nome = "Magazine Luiza (MGLU3)", Simbolo = "MGLU3" },
+        new Ativo { Nome = "Ambev (ABEV3)", Simbolo = "ABEV3" },
+        new Ativo { Nome = "Banco do Brasil (BBAS3)", Simbolo = "BBAS3" },
+        new Ativo { Nome = "Bradesco (BBDC4)", Simbolo = "BBDC4" },
+        new Ativo { Nome = "Santander (SANB11)", Simbolo = "SANB11" },
+        new Ativo { Nome = "Localiza (RENT3)", Simbolo = "RENT3" },
+    };
+
+    private HashSet<string> favoritos = new HashSet<string>();
 
     protected override async Task OnInitializedAsync()
     {
-        ibovespa = await BuscarCotacao("IBOV");
-        dolar = await BuscarCotacao("USD");
-        xpAtivo = await BuscarCotacao("XPBR31");
+        await CarregarFavoritos();
+
+        foreach (var ativo in ativos)
+        {
+            (ativo.Preco, ativo.Variacao) = await BuscarCotacao(ativo.Simbolo);
+        }
     }
 
-    private async Task<string> BuscarCotacao(string ativo)
-{
-    string apiKey = "NF3RKPLTVYP2OC2X"; // Sua API Key real
-    string url = $"https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={ativo}.SA&apikey={apiKey}";
-
-    using HttpClient client = new HttpClient();
-    try
+    private async Task ToggleFavorito(string simbolo)
     {
+        if (favoritos.Contains(simbolo))
+            favoritos.Remove(simbolo);
+        else
+            favoritos.Add(simbolo);
+
+        await SalvarFavoritos();
+    }
+
+    private async Task CarregarFavoritos()
+    {
+        var favoritosSalvos = await _localStorage.GetItemAsync<string>("favoritos");
+        if (!string.IsNullOrEmpty(favoritosSalvos))
+            favoritos = new HashSet<string>(favoritosSalvos.Split(','));
+    }
+
+    private async Task SalvarFavoritos()
+    {
+        await _localStorage.SetItemAsync("favoritos", string.Join(",", favoritos));
+    }
+
+    private async Task<(string preco, decimal variacao)> BuscarCotacao(string ativo)
+    {
+        string url = $"https://brapi.dev/api/quote/{ativo}?token=hhgr57mJrCZ4TxWxjLj5w7";
+
+        using HttpClient client = new HttpClient();
         var response = await client.GetStringAsync(url);
         var json = JsonDocument.Parse(response);
 
-        if (json.RootElement.TryGetProperty("Global Quote", out JsonElement globalQuote) &&
-            globalQuote.TryGetProperty("05. price", out JsonElement priceElement))
+        if (json.RootElement.TryGetProperty("results", out JsonElement results) && results.GetArrayLength() > 0)
         {
-            string price = priceElement.GetString();
-            return $"R$ {price}";
-        }
-        else
-        {
-            return "Erro ao obter cotação";
-        }
-    }
-    catch (Exception ex)
-    {
-        return $"Erro: {ex.Message}";
-    }
-}
+            var price = results[0].GetProperty("regularMarketPrice").GetDecimal();
+            var previousClose = results[0].GetProperty("regularMarketPreviousClose").GetDecimal();
+            var changePercent = ((price - previousClose) / previousClose) * 100;
 
+            return ($"R$ {price:F2}", changePercent);
+        }
+
+        return ("Erro ao obter cotação", 0);
+    }
+
+    private class Ativo
+    {
+        public string Nome { get; set; } = string.Empty;
+        public string Simbolo { get; set; } = string.Empty;
+        public string Preco { get; set; } = "Carregando...";
+        public decimal Variacao { get; set; } = 0;
+    }
 }
