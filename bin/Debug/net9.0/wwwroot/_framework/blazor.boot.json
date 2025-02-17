@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "DashboardFinanceiroXP",
   "resources": {
-    "hash": "sha256-3sxz+aYYiL49Zyae7hHs556r22CKq2gTaL9rnP+YUbo=",
+    "hash": "sha256-UsIOHopQx2N68nxiZTXYK0YifunXbUGhVAuEIXO3GJc=",
     "fingerprinting": {
       "Blazored.LocalStorage.12n6dz54qr.wasm": "Blazored.LocalStorage.wasm",
       "Microsoft.AspNetCore.Authorization.esv38zo127.wasm": "Microsoft.AspNetCore.Authorization.wasm",
@@ -202,8 +202,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "DashboardFinanceiroXP.cqk7fjr7zb.wasm": "DashboardFinanceiroXP.wasm",
-      "DashboardFinanceiroXP.b2o32pkwpg.pdb": "DashboardFinanceiroXP.pdb"
+      "DashboardFinanceiroXP.soz6jqsdsu.wasm": "DashboardFinanceiroXP.wasm",
+      "DashboardFinanceiroXP.ujt19475pk.pdb": "DashboardFinanceiroXP.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8bti36lthm.js": "sha256-HFADmT26AarHu4tMjFaTPxINmQjBJGtdPN+CKjtNMFE="
@@ -414,10 +414,10 @@
       "WindowsBase.tuf34ieu7y.wasm": "sha256-Bd+l972cOS1eVeLzrQNlgD6LPWV1QXBSzJhv8Tx1WGI=",
       "mscorlib.5q5u0swn6q.wasm": "sha256-g9cI1sECkF7bxMqOSB+W0a4utdDsqTrqZzyiAEeA65g=",
       "netstandard.w8gk1pigg1.wasm": "sha256-QFR5QNPfvyZTexW3IA/AFx6ZmIF/TecvOUsSK4gM4po=",
-      "DashboardFinanceiroXP.cqk7fjr7zb.wasm": "sha256-tG/J95TH1FEEFm4H3h1Ktv+0akwJMMTRMifHiW6IqeE="
+      "DashboardFinanceiroXP.soz6jqsdsu.wasm": "sha256-LJWDsN6tn4ZM5DDLO83N/s+DT6YglHK/3s4ZamOqnbI="
     },
     "pdb": {
-      "DashboardFinanceiroXP.b2o32pkwpg.pdb": "sha256-kyL+5IbJnW9Hbsbtz04Tv3Nnoq6kDx4zw9qr6HuJyRY="
+      "DashboardFinanceiroXP.ujt19475pk.pdb": "sha256-2jTsYz6gQ1MElePFYI6LwQgZr5IWizf16CfsUd+bOxs="
     }
   },
   "cacheBootResources": true,
