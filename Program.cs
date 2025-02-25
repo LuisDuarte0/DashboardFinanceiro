@@ -9,7 +9,7 @@ builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-builder.Services.AddBlazoredLocalStorage(); // ✅ Adiciona suporte ao LocalStorage
+builder.Services.AddBlazoredLocalStorage(); // LocalStorage
 
 
 await builder.Build().RunAsync();

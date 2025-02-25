@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\js\\chart.js",
+      "PackagePath": "staticwebassets\\js\\chart.js"
+    },
+    {
       "Id": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },

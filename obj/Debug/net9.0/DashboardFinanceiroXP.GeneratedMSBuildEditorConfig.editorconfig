@@ -28,16 +28,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luisc/Downloads/DashboardFinanceiroXP/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/luisc/Downloads/DashboardFinanceiroXP/Pages/Dashboard.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/luisc/Downloads/DashboardFinanceiroXP/Pages/GraficoAcao.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JhZmljb0FjYW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/luisc/Downloads/DashboardFinanceiroXP/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/luisc/Downloads/DashboardFinanceiroXP/Pages/Noticias.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNpYXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/luisc/Downloads/DashboardFinanceiroXP/Pages/PerfilInvestidor.razor]
@@ -46,10 +50,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/luisc/Downloads/DashboardFinanceiroXP/Pages/Sobremim.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29icmVtaW0ucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/luisc/Downloads/DashboardFinanceiroXP/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/luisc/Downloads/DashboardFinanceiroXP/_Imports.razor]

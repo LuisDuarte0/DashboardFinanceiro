@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aANgNkaIgeBSP56IIo+K0xd+autVkQsYtoe7eEevNJs=",
+  "Hash": "Jan1nbPYFOw89w5fI3nWN5Vo0/3OD/xrSo+EcvIlrHM=",
   "Source": "DashboardFinanceiroXP",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "5jgdkd2v2b",
-      "Integrity": "D6OlOpGwKl2Bs7vg1xjJhhP+OQoynJ1Hy67wkPKSKiM=",
+      "Fingerprint": "s8kh9mr5pe",
+      "Integrity": "RM7zo6mn3UamVpMx/kc/6gyZ1zTrqSOH+QsJlCcWuRE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "ujt19475pk",
-      "Integrity": "2jTsYz6gQ1MElePFYI6LwQgZr5IWizf16CfsUd+bOxs=",
+      "Fingerprint": "4t4g9mgtpy",
+      "Integrity": "qIJU2l8xs4irD0tegrcmilE03yit94CgIzKWGYV1Lhs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\DashboardFinanceiroXP.pdb"
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "soz6jqsdsu",
-      "Integrity": "LJWDsN6tn4ZM5DDLO83N/s+DT6YglHK/3s4ZamOqnbI=",
+      "Fingerprint": "hghu6tckds",
+      "Integrity": "HzLtoHI7sYyiNM4bAegIAyPNb0SLi/+vChXNEac41Tk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\webcil\\DashboardFinanceiroXP.wasm"
@@ -4532,12 +4532,12 @@
       "OriginalItemSpec": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Threading.Thread.wasm"
     },
     {
-      "Identity": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1dy28j52jb-soz6jqsdsu.gz",
+      "Identity": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1dy28j52jb-hghu6tckds.gz",
       "SourceId": "DashboardFinanceiroXP",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/DashboardFinanceiroXP#[.{fingerprint=soz6jqsdsu}]!.wasm.gz",
+      "RelativePath": "_framework/DashboardFinanceiroXP#[.{fingerprint=hghu6tckds}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4546,8 +4546,8 @@
       "RelatedAsset": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\bin\\Debug\\net9.0\\wwwroot\\_framework\\DashboardFinanceiroXP.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "k3or0sisbc",
-      "Integrity": "QD3JbmNuRCbT0pXDDebtMQLwmaYdAks/Ejx0IzOjrXI=",
+      "Fingerprint": "lt2w2cxl3c",
+      "Integrity": "SRi5YdT01l4VWUxQm/diJ6R/S0NhHQacqvdbB8pWTBI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\bin\\Debug\\net9.0\\wwwroot\\_framework\\DashboardFinanceiroXP.wasm"
@@ -4658,12 +4658,12 @@
       "OriginalItemSpec": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\bin\\Debug\\net9.0\\wwwroot\\_framework\\netstandard.wasm"
     },
     {
-      "Identity": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1v4buh09zz-fn0osaxsie.gz",
+      "Identity": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1v4buh09zz-ace2crbjss.gz",
       "SourceId": "DashboardFinanceiroXP",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "index#[.{fingerprint=fn0osaxsie}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=ace2crbjss}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4672,8 +4672,8 @@
       "RelatedAsset": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ntadaocebe",
-      "Integrity": "C2JYZlKFwWMYv34syxj1TZ6WRLnMOIEhudX+FsXwbf0=",
+      "Fingerprint": "o42dim1506",
+      "Integrity": "+PnQ6bOFGbPpYO3Vhnlz5hgCcpta5uh1LEGx8E8/m6E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\index.html"
@@ -4868,7 +4868,7 @@
       "OriginalItemSpec": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.ComponentModel.Primitives.wasm"
     },
     {
-      "Identity": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\2yq08qi9gj-5jgdkd2v2b.gz",
+      "Identity": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\2yq08qi9gj-s8kh9mr5pe.gz",
       "SourceId": "DashboardFinanceiroXP",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\",
@@ -4882,8 +4882,8 @@
       "RelatedAsset": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "s9d4h5uscv",
-      "Integrity": "0B6ZrpAgr+aE7dTMAz5Zp7rLKo7shEZOO9w2jg43Tl8=",
+      "Fingerprint": "7g3svzhj4c",
+      "Integrity": "d7uVfs1eDXxJmlKgATmZDeFNS8GtV+HGJTUL5xlu+MM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -5603,6 +5603,27 @@
       "OriginalItemSpec": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.ComponentModel.wasm"
     },
     {
+      "Identity": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\7cv6cqcnoe-0oigvhjeck.gz",
+      "SourceId": "DashboardFinanceiroXP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "js/chart#[.{fingerprint=0oigvhjeck}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\js\\chart.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ee6iruwi60",
+      "Integrity": "5qMIrt/bzfFOnm2K8s622NOu1YgMBlBbgvdzTQWJJCQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\js\\chart.js"
+    },
+    {
       "Identity": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\7jii3fav3n-efhjennniz.gz",
       "SourceId": "DashboardFinanceiroXP",
       "SourceType": "Computed",
@@ -6086,12 +6107,12 @@
       "OriginalItemSpec": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\b444w5h313-ujt19475pk.gz",
+      "Identity": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\b444w5h313-4t4g9mgtpy.gz",
       "SourceId": "DashboardFinanceiroXP",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/DashboardFinanceiroXP#[.{fingerprint=ujt19475pk}]!.pdb.gz",
+      "RelativePath": "_framework/DashboardFinanceiroXP#[.{fingerprint=4t4g9mgtpy}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6100,8 +6121,8 @@
       "RelatedAsset": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\bin\\Debug\\net9.0\\wwwroot\\_framework\\DashboardFinanceiroXP.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "9mwv81kbtl",
-      "Integrity": "4WIp1TR1/V0nop/6eHlRliZ8SwB8vJ3+7djyHkPHRBg=",
+      "Fingerprint": "yb1vzcyxno",
+      "Integrity": "fitkYjFcDbc7UhXQOm5wTci8tXolHU7RHix6PBIz028=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\bin\\Debug\\net9.0\\wwwroot\\_framework\\DashboardFinanceiroXP.pdb"
@@ -9362,12 +9383,12 @@
       "OriginalItemSpec": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\yayxfy4ya3-6kj57dy1hk.gz",
+      "Identity": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\yayxfy4ya3-gqfoluqv2x.gz",
       "SourceId": "DashboardFinanceiroXP",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "css/app#[.{fingerprint=6kj57dy1hk}]?.css.gz",
+      "RelativePath": "css/app#[.{fingerprint=gqfoluqv2x}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -9376,8 +9397,8 @@
       "RelatedAsset": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\css\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dv7ujh5fv6",
-      "Integrity": "p5V25FQd092Pa6A4diF8CJOmle44jejlMsjkRNanip4=",
+      "Fingerprint": "78e3sp42hz",
+      "Integrity": "x8qvnay/QA93b3aLXQsidJH/HqFe2uwHuiJi3g6RP/4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\css\\app.css"
@@ -9712,8 +9733,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6kj57dy1hk",
-      "Integrity": "uvJ+ZKiaqY6jsiIpi/JaHqv6YCoEI8KIfAaD82/+dbs=",
+      "Fingerprint": "gqfoluqv2x",
+      "Integrity": "WM1tbRiJrTfeSa4xwicuS0oOAy61US4OOtEKP2dRqWA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
@@ -9901,11 +9922,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fn0osaxsie",
-      "Integrity": "Sy2D5PETx3BC/JuJCtKunHEDyqcEB3uoOfW709OnXKg=",
+      "Fingerprint": "ace2crbjss",
+      "Integrity": "5gIrg9+iF9WGw5gNf0yT5GsKrzWA/87CEOzkfFIHL3E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\js\\chart.js",
+      "SourceId": "DashboardFinanceiroXP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/chart#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0oigvhjeck",
+      "Integrity": "gNVccdMkIatcZLz2Vn8t5VLU0yk7Q09WHMJpLPJN+j4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chart.js"
     },
     {
       "Identity": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -10873,11 +10915,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"D6OlOpGwKl2Bs7vg1xjJhhP+OQoynJ1Hy67wkPKSKiM=\""
+          "Value": "\"RM7zo6mn3UamVpMx/kc/6gyZ1zTrqSOH+QsJlCcWuRE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 15:01:21 GMT"
+          "Value": "Tue, 25 Feb 2025 01:54:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10887,18 +10929,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-D6OlOpGwKl2Bs7vg1xjJhhP+OQoynJ1Hy67wkPKSKiM="
+          "Value": "sha256-RM7zo6mn3UamVpMx/kc/6gyZ1zTrqSOH+QsJlCcWuRE="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\2yq08qi9gj-5jgdkd2v2b.gz",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\2yq08qi9gj-s8kh9mr5pe.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080742834"
+          "Quality": "0.000080768920"
         }
       ],
       "ResponseHeaders": [
@@ -10908,15 +10950,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12384"
+          "Value": "12380"
         },
         {
           "Name": "ETag",
-          "Value": "\"0B6ZrpAgr+aE7dTMAz5Zp7rLKo7shEZOO9w2jg43Tl8=\""
+          "Value": "\"d7uVfs1eDXxJmlKgATmZDeFNS8GtV+HGJTUL5xlu+MM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 15:01:07 GMT"
+          "Value": "Tue, 25 Feb 2025 01:47:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10936,19 +10978,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"D6OlOpGwKl2Bs7vg1xjJhhP+OQoynJ1Hy67wkPKSKiM=\""
+          "Value": "W/\"RM7zo6mn3UamVpMx/kc/6gyZ1zTrqSOH+QsJlCcWuRE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-D6OlOpGwKl2Bs7vg1xjJhhP+OQoynJ1Hy67wkPKSKiM="
+          "Value": "sha256-RM7zo6mn3UamVpMx/kc/6gyZ1zTrqSOH+QsJlCcWuRE="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\2yq08qi9gj-5jgdkd2v2b.gz",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\2yq08qi9gj-s8kh9mr5pe.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10957,7 +10999,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12384"
+          "Value": "12380"
         },
         {
           "Name": "Content-Type",
@@ -10965,11 +11007,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0B6ZrpAgr+aE7dTMAz5Zp7rLKo7shEZOO9w2jg43Tl8=\""
+          "Value": "\"d7uVfs1eDXxJmlKgATmZDeFNS8GtV+HGJTUL5xlu+MM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 15:01:07 GMT"
+          "Value": "Tue, 25 Feb 2025 01:47:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10987,7 +11029,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0B6ZrpAgr+aE7dTMAz5Zp7rLKo7shEZOO9w2jg43Tl8="
+          "Value": "sha256-d7uVfs1eDXxJmlKgATmZDeFNS8GtV+HGJTUL5xlu+MM="
         }
       ]
     },
@@ -11427,7 +11469,7 @@
       ]
     },
     {
-      "Route": "_framework/DashboardFinanceiroXP.pdb",
+      "Route": "_framework/DashboardFinanceiroXP.4t4g9mgtpy.pdb",
       "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\bin\\Debug\\net9.0\\wwwroot\\_framework\\DashboardFinanceiroXP.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11437,7 +11479,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "34488"
+          "Value": "38728"
         },
         {
           "Name": "Content-Type",
@@ -11445,148 +11487,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2jTsYz6gQ1MElePFYI6LwQgZr5IWizf16CfsUd+bOxs=\""
+          "Value": "\"qIJU2l8xs4irD0tegrcmilE03yit94CgIzKWGYV1Lhs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 00:48:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2jTsYz6gQ1MElePFYI6LwQgZr5IWizf16CfsUd+bOxs="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/DashboardFinanceiroXP.pdb",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\b444w5h313-ujt19475pk.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000037790039"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "26461"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4WIp1TR1/V0nop/6eHlRliZ8SwB8vJ3+7djyHkPHRBg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 00:48:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"2jTsYz6gQ1MElePFYI6LwQgZr5IWizf16CfsUd+bOxs=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2jTsYz6gQ1MElePFYI6LwQgZr5IWizf16CfsUd+bOxs="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/DashboardFinanceiroXP.pdb.gz",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\b444w5h313-ujt19475pk.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "26461"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4WIp1TR1/V0nop/6eHlRliZ8SwB8vJ3+7djyHkPHRBg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 00:48:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4WIp1TR1/V0nop/6eHlRliZ8SwB8vJ3+7djyHkPHRBg="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/DashboardFinanceiroXP.soz6jqsdsu.wasm",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\bin\\Debug\\net9.0\\wwwroot\\_framework\\DashboardFinanceiroXP.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "41749"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LJWDsN6tn4ZM5DDLO83N/s+DT6YglHK/3s4ZamOqnbI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 00:48:36 GMT"
+          "Value": "Tue, 25 Feb 2025 01:54:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11596,168 +11501,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "soz6jqsdsu"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/DashboardFinanceiroXP.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-LJWDsN6tn4ZM5DDLO83N/s+DT6YglHK/3s4ZamOqnbI="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/DashboardFinanceiroXP.soz6jqsdsu.wasm",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1dy28j52jb-soz6jqsdsu.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000059923298"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16687"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QD3JbmNuRCbT0pXDDebtMQLwmaYdAks/Ejx0IzOjrXI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 00:48:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"LJWDsN6tn4ZM5DDLO83N/s+DT6YglHK/3s4ZamOqnbI=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "soz6jqsdsu"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/DashboardFinanceiroXP.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-LJWDsN6tn4ZM5DDLO83N/s+DT6YglHK/3s4ZamOqnbI="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/DashboardFinanceiroXP.soz6jqsdsu.wasm.gz",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1dy28j52jb-soz6jqsdsu.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16687"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QD3JbmNuRCbT0pXDDebtMQLwmaYdAks/Ejx0IzOjrXI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 00:48:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "soz6jqsdsu"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/DashboardFinanceiroXP.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QD3JbmNuRCbT0pXDDebtMQLwmaYdAks/Ejx0IzOjrXI="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/DashboardFinanceiroXP.ujt19475pk.pdb",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\bin\\Debug\\net9.0\\wwwroot\\_framework\\DashboardFinanceiroXP.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "34488"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2jTsYz6gQ1MElePFYI6LwQgZr5IWizf16CfsUd+bOxs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 00:48:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ujt19475pk"
+          "Value": "4t4g9mgtpy"
         },
         {
           "Name": "label",
@@ -11765,18 +11509,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2jTsYz6gQ1MElePFYI6LwQgZr5IWizf16CfsUd+bOxs="
+          "Value": "sha256-qIJU2l8xs4irD0tegrcmilE03yit94CgIzKWGYV1Lhs="
         }
       ]
     },
     {
-      "Route": "_framework/DashboardFinanceiroXP.ujt19475pk.pdb",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\b444w5h313-ujt19475pk.gz",
+      "Route": "_framework/DashboardFinanceiroXP.4t4g9mgtpy.pdb",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\b444w5h313-4t4g9mgtpy.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000037790039"
+          "Quality": "0.000033491861"
         }
       ],
       "ResponseHeaders": [
@@ -11786,15 +11530,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "26461"
+          "Value": "29857"
         },
         {
           "Name": "ETag",
-          "Value": "\"4WIp1TR1/V0nop/6eHlRliZ8SwB8vJ3+7djyHkPHRBg=\""
+          "Value": "\"fitkYjFcDbc7UhXQOm5wTci8tXolHU7RHix6PBIz028=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 00:48:37 GMT"
+          "Value": "Tue, 25 Feb 2025 01:54:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11814,13 +11558,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"2jTsYz6gQ1MElePFYI6LwQgZr5IWizf16CfsUd+bOxs=\""
+          "Value": "W/\"qIJU2l8xs4irD0tegrcmilE03yit94CgIzKWGYV1Lhs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ujt19475pk"
+          "Value": "4t4g9mgtpy"
         },
         {
           "Name": "label",
@@ -11828,13 +11572,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2jTsYz6gQ1MElePFYI6LwQgZr5IWizf16CfsUd+bOxs="
+          "Value": "sha256-qIJU2l8xs4irD0tegrcmilE03yit94CgIzKWGYV1Lhs="
         }
       ]
     },
     {
-      "Route": "_framework/DashboardFinanceiroXP.ujt19475pk.pdb.gz",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\b444w5h313-ujt19475pk.gz",
+      "Route": "_framework/DashboardFinanceiroXP.4t4g9mgtpy.pdb.gz",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\b444w5h313-4t4g9mgtpy.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11843,7 +11587,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "26461"
+          "Value": "29857"
         },
         {
           "Name": "Content-Type",
@@ -11851,11 +11595,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4WIp1TR1/V0nop/6eHlRliZ8SwB8vJ3+7djyHkPHRBg=\""
+          "Value": "\"fitkYjFcDbc7UhXQOm5wTci8tXolHU7RHix6PBIz028=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 00:48:37 GMT"
+          "Value": "Tue, 25 Feb 2025 01:54:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11873,7 +11617,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ujt19475pk"
+          "Value": "4t4g9mgtpy"
         },
         {
           "Name": "label",
@@ -11881,7 +11625,305 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4WIp1TR1/V0nop/6eHlRliZ8SwB8vJ3+7djyHkPHRBg="
+          "Value": "sha256-fitkYjFcDbc7UhXQOm5wTci8tXolHU7RHix6PBIz028="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/DashboardFinanceiroXP.hghu6tckds.wasm",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\bin\\Debug\\net9.0\\wwwroot\\_framework\\DashboardFinanceiroXP.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HzLtoHI7sYyiNM4bAegIAyPNb0SLi/+vChXNEac41Tk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 01:54:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hghu6tckds"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/DashboardFinanceiroXP.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HzLtoHI7sYyiNM4bAegIAyPNb0SLi/+vChXNEac41Tk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/DashboardFinanceiroXP.hghu6tckds.wasm",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1dy28j52jb-hghu6tckds.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000048593226"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20578"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SRi5YdT01l4VWUxQm/diJ6R/S0NhHQacqvdbB8pWTBI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 01:54:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HzLtoHI7sYyiNM4bAegIAyPNb0SLi/+vChXNEac41Tk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hghu6tckds"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/DashboardFinanceiroXP.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HzLtoHI7sYyiNM4bAegIAyPNb0SLi/+vChXNEac41Tk="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/DashboardFinanceiroXP.hghu6tckds.wasm.gz",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1dy28j52jb-hghu6tckds.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20578"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SRi5YdT01l4VWUxQm/diJ6R/S0NhHQacqvdbB8pWTBI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 01:54:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hghu6tckds"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/DashboardFinanceiroXP.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SRi5YdT01l4VWUxQm/diJ6R/S0NhHQacqvdbB8pWTBI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/DashboardFinanceiroXP.pdb",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\bin\\Debug\\net9.0\\wwwroot\\_framework\\DashboardFinanceiroXP.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38728"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qIJU2l8xs4irD0tegrcmilE03yit94CgIzKWGYV1Lhs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 01:54:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qIJU2l8xs4irD0tegrcmilE03yit94CgIzKWGYV1Lhs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/DashboardFinanceiroXP.pdb",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\b444w5h313-4t4g9mgtpy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000033491861"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29857"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fitkYjFcDbc7UhXQOm5wTci8tXolHU7RHix6PBIz028=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 01:54:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qIJU2l8xs4irD0tegrcmilE03yit94CgIzKWGYV1Lhs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qIJU2l8xs4irD0tegrcmilE03yit94CgIzKWGYV1Lhs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/DashboardFinanceiroXP.pdb.gz",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\b444w5h313-4t4g9mgtpy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29857"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fitkYjFcDbc7UhXQOm5wTci8tXolHU7RHix6PBIz028=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 01:54:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fitkYjFcDbc7UhXQOm5wTci8tXolHU7RHix6PBIz028="
         }
       ]
     },
@@ -11896,7 +11938,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "41749"
+          "Value": "51477"
         },
         {
           "Name": "Content-Type",
@@ -11904,11 +11946,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LJWDsN6tn4ZM5DDLO83N/s+DT6YglHK/3s4ZamOqnbI=\""
+          "Value": "\"HzLtoHI7sYyiNM4bAegIAyPNb0SLi/+vChXNEac41Tk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 00:48:36 GMT"
+          "Value": "Tue, 25 Feb 2025 01:54:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11918,18 +11960,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LJWDsN6tn4ZM5DDLO83N/s+DT6YglHK/3s4ZamOqnbI="
+          "Value": "sha256-HzLtoHI7sYyiNM4bAegIAyPNb0SLi/+vChXNEac41Tk="
         }
       ]
     },
     {
       "Route": "_framework/DashboardFinanceiroXP.wasm",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1dy28j52jb-soz6jqsdsu.gz",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1dy28j52jb-hghu6tckds.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000059923298"
+          "Quality": "0.000048593226"
         }
       ],
       "ResponseHeaders": [
@@ -11939,15 +11981,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16687"
+          "Value": "20578"
         },
         {
           "Name": "ETag",
-          "Value": "\"QD3JbmNuRCbT0pXDDebtMQLwmaYdAks/Ejx0IzOjrXI=\""
+          "Value": "\"SRi5YdT01l4VWUxQm/diJ6R/S0NhHQacqvdbB8pWTBI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 00:48:37 GMT"
+          "Value": "Tue, 25 Feb 2025 01:54:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11967,19 +12009,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"LJWDsN6tn4ZM5DDLO83N/s+DT6YglHK/3s4ZamOqnbI=\""
+          "Value": "W/\"HzLtoHI7sYyiNM4bAegIAyPNb0SLi/+vChXNEac41Tk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LJWDsN6tn4ZM5DDLO83N/s+DT6YglHK/3s4ZamOqnbI="
+          "Value": "sha256-HzLtoHI7sYyiNM4bAegIAyPNb0SLi/+vChXNEac41Tk="
         }
       ]
     },
     {
       "Route": "_framework/DashboardFinanceiroXP.wasm.gz",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1dy28j52jb-soz6jqsdsu.gz",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1dy28j52jb-hghu6tckds.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11988,7 +12030,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16687"
+          "Value": "20578"
         },
         {
           "Name": "Content-Type",
@@ -11996,11 +12038,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QD3JbmNuRCbT0pXDDebtMQLwmaYdAks/Ejx0IzOjrXI=\""
+          "Value": "\"SRi5YdT01l4VWUxQm/diJ6R/S0NhHQacqvdbB8pWTBI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 00:48:37 GMT"
+          "Value": "Tue, 25 Feb 2025 01:54:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12018,7 +12060,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QD3JbmNuRCbT0pXDDebtMQLwmaYdAks/Ejx0IzOjrXI="
+          "Value": "sha256-SRi5YdT01l4VWUxQm/diJ6R/S0NhHQacqvdbB8pWTBI="
         }
       ]
     },
@@ -71623,13 +71665,13 @@
       ]
     },
     {
-      "Route": "css/app.6kj57dy1hk.css",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\yayxfy4ya3-6kj57dy1hk.gz",
+      "Route": "css/app.css",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\yayxfy4ya3-gqfoluqv2x.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000303306036"
+          "Quality": "0.000274047684"
         }
       ],
       "ResponseHeaders": [
@@ -71639,19 +71681,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3296"
+          "Value": "3648"
         },
         {
           "Name": "ETag",
-          "Value": "\"p5V25FQd092Pa6A4diF8CJOmle44jejlMsjkRNanip4=\""
+          "Value": "\"x8qvnay/QA93b3aLXQsidJH/HqFe2uwHuiJi3g6RP/4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 21:54:39 GMT"
+          "Value": "Tue, 25 Feb 2025 01:51:00 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -71667,26 +71709,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"uvJ+ZKiaqY6jsiIpi/JaHqv6YCoEI8KIfAaD82/+dbs=\""
+          "Value": "W/\"WM1tbRiJrTfeSa4xwicuS0oOAy61US4OOtEKP2dRqWA=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "6kj57dy1hk"
-        },
-        {
-          "Name": "label",
-          "Value": "css/app.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-uvJ+ZKiaqY6jsiIpi/JaHqv6YCoEI8KIfAaD82/+dbs="
+          "Value": "sha256-WM1tbRiJrTfeSa4xwicuS0oOAy61US4OOtEKP2dRqWA="
         }
       ]
     },
     {
-      "Route": "css/app.6kj57dy1hk.css",
+      "Route": "css/app.css",
       "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -71696,7 +71730,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9198"
+          "Value": "11869"
         },
         {
           "Name": "Content-Type",
@@ -71704,11 +71738,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uvJ+ZKiaqY6jsiIpi/JaHqv6YCoEI8KIfAaD82/+dbs=\""
+          "Value": "\"WM1tbRiJrTfeSa4xwicuS0oOAy61US4OOtEKP2dRqWA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 21:54:39 GMT"
+          "Value": "Tue, 25 Feb 2025 01:51:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WM1tbRiJrTfeSa4xwicuS0oOAy61US4OOtEKP2dRqWA="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css.gz",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\yayxfy4ya3-gqfoluqv2x.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x8qvnay/QA93b3aLXQsidJH/HqFe2uwHuiJi3g6RP/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 01:51:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x8qvnay/QA93b3aLXQsidJH/HqFe2uwHuiJi3g6RP/4="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.gqfoluqv2x.css",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\yayxfy4ya3-gqfoluqv2x.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000274047684"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3648"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x8qvnay/QA93b3aLXQsidJH/HqFe2uwHuiJi3g6RP/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 01:51:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WM1tbRiJrTfeSa4xwicuS0oOAy61US4OOtEKP2dRqWA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gqfoluqv2x"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WM1tbRiJrTfeSa4xwicuS0oOAy61US4OOtEKP2dRqWA="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.gqfoluqv2x.css",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11869"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WM1tbRiJrTfeSa4xwicuS0oOAy61US4OOtEKP2dRqWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 25 Feb 2025 01:51:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71718,7 +71897,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6kj57dy1hk"
+          "Value": "gqfoluqv2x"
         },
         {
           "Name": "label",
@@ -71726,13 +71905,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-uvJ+ZKiaqY6jsiIpi/JaHqv6YCoEI8KIfAaD82/+dbs="
+          "Value": "sha256-WM1tbRiJrTfeSa4xwicuS0oOAy61US4OOtEKP2dRqWA="
         }
       ]
     },
     {
-      "Route": "css/app.6kj57dy1hk.css.gz",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\yayxfy4ya3-6kj57dy1hk.gz",
+      "Route": "css/app.gqfoluqv2x.css.gz",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\yayxfy4ya3-gqfoluqv2x.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71741,7 +71920,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3296"
+          "Value": "3648"
         },
         {
           "Name": "Content-Type",
@@ -71749,11 +71928,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"p5V25FQd092Pa6A4diF8CJOmle44jejlMsjkRNanip4=\""
+          "Value": "\"x8qvnay/QA93b3aLXQsidJH/HqFe2uwHuiJi3g6RP/4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 21:54:39 GMT"
+          "Value": "Tue, 25 Feb 2025 01:51:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71771,7 +71950,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6kj57dy1hk"
+          "Value": "gqfoluqv2x"
         },
         {
           "Name": "label",
@@ -71779,144 +71958,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-p5V25FQd092Pa6A4diF8CJOmle44jejlMsjkRNanip4="
-        }
-      ]
-    },
-    {
-      "Route": "css/app.css",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\yayxfy4ya3-6kj57dy1hk.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000303306036"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3296"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"p5V25FQd092Pa6A4diF8CJOmle44jejlMsjkRNanip4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 21:54:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"uvJ+ZKiaqY6jsiIpi/JaHqv6YCoEI8KIfAaD82/+dbs=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-uvJ+ZKiaqY6jsiIpi/JaHqv6YCoEI8KIfAaD82/+dbs="
-        }
-      ]
-    },
-    {
-      "Route": "css/app.css",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\css\\app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9198"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uvJ+ZKiaqY6jsiIpi/JaHqv6YCoEI8KIfAaD82/+dbs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 21:54:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-uvJ+ZKiaqY6jsiIpi/JaHqv6YCoEI8KIfAaD82/+dbs="
-        }
-      ]
-    },
-    {
-      "Route": "css/app.css.gz",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\yayxfy4ya3-6kj57dy1hk.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3296"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"p5V25FQd092Pa6A4diF8CJOmle44jejlMsjkRNanip4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 21:54:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-p5V25FQd092Pa6A4diF8CJOmle44jejlMsjkRNanip4="
+          "Value": "sha256-x8qvnay/QA93b3aLXQsidJH/HqFe2uwHuiJi3g6RP/4="
         }
       ]
     },
@@ -73173,13 +73215,13 @@
       ]
     },
     {
-      "Route": "index.fn0osaxsie.html",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1v4buh09zz-fn0osaxsie.gz",
+      "Route": "index.ace2crbjss.html",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1v4buh09zz-ace2crbjss.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002083333333"
+          "Quality": "0.001858736059"
         }
       ],
       "ResponseHeaders": [
@@ -73189,15 +73231,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "479"
+          "Value": "537"
         },
         {
           "Name": "ETag",
-          "Value": "\"C2JYZlKFwWMYv34syxj1TZ6WRLnMOIEhudX+FsXwbf0=\""
+          "Value": "\"+PnQ6bOFGbPpYO3Vhnlz5hgCcpta5uh1LEGx8E8/m6E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 18:35:44 GMT"
+          "Value": "Mon, 24 Feb 2025 21:54:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73217,13 +73259,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Sy2D5PETx3BC/JuJCtKunHEDyqcEB3uoOfW709OnXKg=\""
+          "Value": "W/\"5gIrg9+iF9WGw5gNf0yT5GsKrzWA/87CEOzkfFIHL3E=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fn0osaxsie"
+          "Value": "ace2crbjss"
         },
         {
           "Name": "label",
@@ -73231,12 +73273,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Sy2D5PETx3BC/JuJCtKunHEDyqcEB3uoOfW709OnXKg="
+          "Value": "sha256-5gIrg9+iF9WGw5gNf0yT5GsKrzWA/87CEOzkfFIHL3E="
         }
       ]
     },
     {
-      "Route": "index.fn0osaxsie.html",
+      "Route": "index.ace2crbjss.html",
       "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -73246,7 +73288,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "997"
+          "Value": "1172"
         },
         {
           "Name": "Content-Type",
@@ -73254,11 +73296,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Sy2D5PETx3BC/JuJCtKunHEDyqcEB3uoOfW709OnXKg=\""
+          "Value": "\"5gIrg9+iF9WGw5gNf0yT5GsKrzWA/87CEOzkfFIHL3E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 18:35:44 GMT"
+          "Value": "Mon, 24 Feb 2025 21:54:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73268,7 +73310,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fn0osaxsie"
+          "Value": "ace2crbjss"
         },
         {
           "Name": "label",
@@ -73276,13 +73318,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Sy2D5PETx3BC/JuJCtKunHEDyqcEB3uoOfW709OnXKg="
+          "Value": "sha256-5gIrg9+iF9WGw5gNf0yT5GsKrzWA/87CEOzkfFIHL3E="
         }
       ]
     },
     {
-      "Route": "index.fn0osaxsie.html.gz",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1v4buh09zz-fn0osaxsie.gz",
+      "Route": "index.ace2crbjss.html.gz",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1v4buh09zz-ace2crbjss.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -73291,7 +73333,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "479"
+          "Value": "537"
         },
         {
           "Name": "Content-Type",
@@ -73299,11 +73341,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"C2JYZlKFwWMYv34syxj1TZ6WRLnMOIEhudX+FsXwbf0=\""
+          "Value": "\"+PnQ6bOFGbPpYO3Vhnlz5hgCcpta5uh1LEGx8E8/m6E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 18:35:44 GMT"
+          "Value": "Mon, 24 Feb 2025 21:54:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73321,7 +73363,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fn0osaxsie"
+          "Value": "ace2crbjss"
         },
         {
           "Name": "label",
@@ -73329,18 +73371,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-C2JYZlKFwWMYv34syxj1TZ6WRLnMOIEhudX+FsXwbf0="
+          "Value": "sha256-+PnQ6bOFGbPpYO3Vhnlz5hgCcpta5uh1LEGx8E8/m6E="
         }
       ]
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1v4buh09zz-fn0osaxsie.gz",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1v4buh09zz-ace2crbjss.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002083333333"
+          "Quality": "0.001858736059"
         }
       ],
       "ResponseHeaders": [
@@ -73350,15 +73392,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "479"
+          "Value": "537"
         },
         {
           "Name": "ETag",
-          "Value": "\"C2JYZlKFwWMYv34syxj1TZ6WRLnMOIEhudX+FsXwbf0=\""
+          "Value": "\"+PnQ6bOFGbPpYO3Vhnlz5hgCcpta5uh1LEGx8E8/m6E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 18:35:44 GMT"
+          "Value": "Mon, 24 Feb 2025 21:54:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73378,13 +73420,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Sy2D5PETx3BC/JuJCtKunHEDyqcEB3uoOfW709OnXKg=\""
+          "Value": "W/\"5gIrg9+iF9WGw5gNf0yT5GsKrzWA/87CEOzkfFIHL3E=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Sy2D5PETx3BC/JuJCtKunHEDyqcEB3uoOfW709OnXKg="
+          "Value": "sha256-5gIrg9+iF9WGw5gNf0yT5GsKrzWA/87CEOzkfFIHL3E="
         }
       ]
     },
@@ -73399,7 +73441,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "997"
+          "Value": "1172"
         },
         {
           "Name": "Content-Type",
@@ -73407,11 +73449,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Sy2D5PETx3BC/JuJCtKunHEDyqcEB3uoOfW709OnXKg=\""
+          "Value": "\"5gIrg9+iF9WGw5gNf0yT5GsKrzWA/87CEOzkfFIHL3E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 18:35:44 GMT"
+          "Value": "Mon, 24 Feb 2025 21:54:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73421,13 +73463,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Sy2D5PETx3BC/JuJCtKunHEDyqcEB3uoOfW709OnXKg="
+          "Value": "sha256-5gIrg9+iF9WGw5gNf0yT5GsKrzWA/87CEOzkfFIHL3E="
         }
       ]
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1v4buh09zz-fn0osaxsie.gz",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\1v4buh09zz-ace2crbjss.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -73436,7 +73478,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "479"
+          "Value": "537"
         },
         {
           "Name": "Content-Type",
@@ -73444,11 +73486,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"C2JYZlKFwWMYv34syxj1TZ6WRLnMOIEhudX+FsXwbf0=\""
+          "Value": "\"+PnQ6bOFGbPpYO3Vhnlz5hgCcpta5uh1LEGx8E8/m6E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 18:35:44 GMT"
+          "Value": "Mon, 24 Feb 2025 21:54:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -73466,7 +73508,305 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-C2JYZlKFwWMYv34syxj1TZ6WRLnMOIEhudX+FsXwbf0="
+          "Value": "sha256-+PnQ6bOFGbPpYO3Vhnlz5hgCcpta5uh1LEGx8E8/m6E="
+        }
+      ]
+    },
+    {
+      "Route": "js/chart.0oigvhjeck.js",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\7cv6cqcnoe-0oigvhjeck.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001250000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "799"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5qMIrt/bzfFOnm2K8s622NOu1YgMBlBbgvdzTQWJJCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 23:34:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gNVccdMkIatcZLz2Vn8t5VLU0yk7Q09WHMJpLPJN+j4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0oigvhjeck"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gNVccdMkIatcZLz2Vn8t5VLU0yk7Q09WHMJpLPJN+j4="
+        }
+      ]
+    },
+    {
+      "Route": "js/chart.0oigvhjeck.js",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\js\\chart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gNVccdMkIatcZLz2Vn8t5VLU0yk7Q09WHMJpLPJN+j4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 23:34:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0oigvhjeck"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gNVccdMkIatcZLz2Vn8t5VLU0yk7Q09WHMJpLPJN+j4="
+        }
+      ]
+    },
+    {
+      "Route": "js/chart.0oigvhjeck.js.gz",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\7cv6cqcnoe-0oigvhjeck.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "799"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5qMIrt/bzfFOnm2K8s622NOu1YgMBlBbgvdzTQWJJCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 23:34:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0oigvhjeck"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chart.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5qMIrt/bzfFOnm2K8s622NOu1YgMBlBbgvdzTQWJJCQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/chart.js",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\7cv6cqcnoe-0oigvhjeck.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001250000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "799"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5qMIrt/bzfFOnm2K8s622NOu1YgMBlBbgvdzTQWJJCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 23:34:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gNVccdMkIatcZLz2Vn8t5VLU0yk7Q09WHMJpLPJN+j4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gNVccdMkIatcZLz2Vn8t5VLU0yk7Q09WHMJpLPJN+j4="
+        }
+      ]
+    },
+    {
+      "Route": "js/chart.js",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\wwwroot\\js\\chart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gNVccdMkIatcZLz2Vn8t5VLU0yk7Q09WHMJpLPJN+j4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 23:34:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gNVccdMkIatcZLz2Vn8t5VLU0yk7Q09WHMJpLPJN+j4="
+        }
+      ]
+    },
+    {
+      "Route": "js/chart.js.gz",
+      "AssetFile": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\Debug\\net9.0\\compressed\\7cv6cqcnoe-0oigvhjeck.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "799"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5qMIrt/bzfFOnm2K8s622NOu1YgMBlBbgvdzTQWJJCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 23:34:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5qMIrt/bzfFOnm2K8s622NOu1YgMBlBbgvdzTQWJJCQ="
         }
       ]
     },
