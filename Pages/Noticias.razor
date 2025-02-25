@@ -1,0 +1,100 @@
+@page "/noticias"
+@inject HttpClient Http
+
+<h3 class="titulo-noticias">📰 Últimas Notícias Financeiras</h3>
+
+<p class="descricao-noticias">
+    🔹 As notícias são obtidas em tempo real via NewsAPI, com atualização constante. O usuário pode filtrar por temas ou buscar palavras-chave.<br>
+</p>
+
+<div class="filtro-container">
+    <input type="text" class="input-filtro" placeholder="Pesquisar notícias..." @bind="filtro" />
+
+    <div class="filtro-temas">
+        <button class="btn-tema @(string.IsNullOrEmpty(temaSelecionado) ? "ativo" : "")" @onclick="() => FiltrarPorTema(string.Empty)">Todas</button>
+        @foreach (var tema in temas)
+        {
+            <button class="btn-tema @(temaSelecionado == tema ? "ativo" : "")" @onclick="() => FiltrarPorTema(tema)">@tema</button>
+        }
+    </div>
+</div>
+
+@if (noticias == null || noticias.Count == 0)
+{
+    <p>Carregando notícias...</p>
+}
+else
+{
+    <div class="noticias-container">
+        @foreach (var noticia in ObterNoticiasFiltradas())
+        {
+            <div class="noticia-card">
+                <img src="@noticia.UrlToImage" alt="@noticia.Title" class="noticia-imagem" />
+                <div class="noticia-conteudo">
+                    <h4 class="noticia-titulo">@noticia.Title</h4>
+                    <p class="noticia-descricao">@noticia.Description</p>
+                    <a href="@noticia.Url" target="_blank" class="noticia-link">Leia mais</a>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    private List<Noticia> noticias = new();
+    private string filtro = string.Empty;
+    private string temaSelecionado = string.Empty;
+    private readonly List<string> temas = new() { "Mercado", "Tecnologia", "Política", "Energia", "Bancos", "Criptomoedas" };
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CarregarNoticias();
+    }
+
+    private async Task CarregarNoticias()
+    {
+        try
+        {
+            var apiKey = "9819c0a8c6ed4f2eaf288ba5584448aa"; // Sua chave da NewsAPI
+            var url = $"https://newsapi.org/v2/everything?q=finance&language=pt&apiKey={apiKey}";
+            var response = await Http.GetFromJsonAsync<NewsApiResponse>(url);
+
+            if (response?.Articles != null)
+            {
+                noticias = response.Articles;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao carregar notícias: {ex.Message}");
+            noticias = new List<Noticia>(); // Evita erro na interface
+        }
+    }
+
+    private void FiltrarPorTema(string tema)
+    {
+        temaSelecionado = tema;
+        StateHasChanged(); // Força atualização da UI
+    }
+
+    private List<Noticia> ObterNoticiasFiltradas()
+    {
+        return noticias
+            .Where(n => (string.IsNullOrEmpty(temaSelecionado) || (n.Title?.Contains(temaSelecionado, StringComparison.OrdinalIgnoreCase) ?? false)) &&
+                        (string.IsNullOrEmpty(filtro) || (n.Title?.Contains(filtro, StringComparison.OrdinalIgnoreCase) ?? false)))
+            .ToList();
+    }
+
+    private class NewsApiResponse
+    {
+        public List<Noticia> Articles { get; set; } = new();
+    }
+
+    private class Noticia
+    {
+        public string Title { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
+        public string Url { get; set; } = string.Empty;
+        public string UrlToImage { get; set; } = string.Empty;
+    }
+}

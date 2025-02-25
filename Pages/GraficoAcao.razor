@@ -1,0 +1,89 @@
+@page "/grafico-acao"
+@inject HttpClient Http
+@inject IJSRuntime JSRuntime
+
+<div class="grafico-container">
+    <h3 class="titulo-grafico">📈 Ações em Gráficos (Últimos 3 Meses)</h3>
+    <p class="comentario-api">
+        Observação: O período de 3 meses é um limite do plano gratuito da API da Brapi. Para períodos maiores, como um ano por exemplo,seria necessário fazer um upgrade com o serviço deles.
+    </p>
+
+    <div class="selecao-acao">
+        <label class="label-acao">Selecione uma ação:</label>
+        <select class="select-acao" @bind="acaoSelecionada">
+            @foreach (var ativo in ativos)
+            {
+                <option value="@ativo.Simbolo">@ativo.Nome</option>
+            }
+        </select>
+        <button class="btn-carregar" @onclick="CarregarDadosGrafico">Carregar Gráfico</button>
+    </div>
+
+    <div class="grafico-wrapper">
+        <canvas id="graficoAcao" width="800" height="400"></canvas>
+    </div>
+</div>
+
+@code {
+    private List<Ativo> ativos = new List<Ativo>
+    {
+        new Ativo { Nome = "XP Investimentos (XPBR31)", Simbolo = "XPBR31" },
+        new Ativo { Nome = "Itaú (ITUB4)", Simbolo = "ITUB4" },
+        new Ativo { Nome = "Eletrobras (ELET3)", Simbolo = "ELET3" },
+        new Ativo { Nome = "Petrobras (PETR4)", Simbolo = "PETR4" },
+        new Ativo { Nome = "Vale (VALE3)", Simbolo = "VALE3" },
+        new Ativo { Nome = "Gerdau (GGBR4)", Simbolo = "GGBR4" },
+        new Ativo { Nome = "Magazine Luiza (MGLU3)", Simbolo = "MGLU3" },
+        new Ativo { Nome = "Ambev (ABEV3)", Simbolo = "ABEV3" },
+        new Ativo { Nome = "Banco do Brasil (BBAS3)", Simbolo = "BBAS3" },
+        new Ativo { Nome = "Bradesco (BBDC4)", Simbolo = "BBDC4" },
+        new Ativo { Nome = "Santander (SANB11)", Simbolo = "SANB11" },
+        new Ativo { Nome = "Localiza (RENT3)", Simbolo = "RENT3" },
+    };
+
+    private string acaoSelecionada = "PETR4";
+    private List<string> labels = new List<string>();
+    private List<decimal> valores = new List<decimal>();
+
+    private async Task CarregarDadosGrafico()
+    {
+        var url = $"https://brapi.dev/api/quote/{acaoSelecionada}?range=3mo&interval=1d&token=hhgr57mJrCZ4TxWxjLj5w7";
+        var response = await Http.GetFromJsonAsync<BrapiResponse>(url);
+
+        if (response?.Results != null && response.Results.Count > 0)
+        {
+            var historico = response.Results[0].HistoricalDataPrice;
+            labels = historico.Select(h => DateTimeOffset.FromUnixTimeSeconds(h.Date).ToString("dd/MM/yyyy")).ToList();
+            valores = historico.Select(h => h.Close).ToList();
+
+            await RenderizarGrafico();
+        }
+    }
+
+    private async Task RenderizarGrafico()
+    {
+        await JSRuntime.InvokeVoidAsync("renderizarGrafico", "graficoAcao", labels, valores);
+    }
+
+    private class BrapiResponse
+    {
+        public List<Result> Results { get; set; } = new List<Result>();
+    }
+
+    private class Result
+    {
+        public List<HistoricalData> HistoricalDataPrice { get; set; } = new List<HistoricalData>();
+    }
+
+    private class HistoricalData
+    {
+        public long Date { get; set; }
+        public decimal Close { get; set; }
+    }
+
+    private class Ativo
+    {
+        public string Nome { get; set; } = string.Empty;
+        public string Simbolo { get; set; } = string.Empty;
+    }
+}
