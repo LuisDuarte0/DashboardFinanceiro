@@ -1,0 +1,149 @@
+@page "/mercado-global"
+@using System.Text.Json
+@using Blazored.LocalStorage
+@inject HttpClient Http
+@inject ILocalStorageService _localStorage
+
+<h2>🌎 Mercado Global</h2>
+<p class="ultima-atualizacao">📅 Última atualização: @ultimaAtualizacao</p>
+
+@if (favoritos.Count > 0)
+{
+    <h3>⭐ Favoritos</h3>
+    <div class="dashboard-container">
+        @foreach (var ativo in ativos.Where(a => favoritos.Contains(a.Simbolo)))
+        {
+            <div class="card">
+                <div class="card-header">
+                    <h3>@ativo.Nome</h3>
+                    <button class="favorite-btn" @onclick="() => ToggleFavorito(ativo.Simbolo)">
+                        ⭐
+                    </button>
+                </div>
+                <p>@ativo.Preco</p>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>📌 Nenhum favorito adicionado. Clique na estrela para favoritar um ativo.</p>
+}
+
+<h3>📊 Ativos Globais</h3>
+<div class="dashboard-container">
+    @foreach (var ativo in ativos.Where(a => !favoritos.Contains(a.Simbolo)))
+    {
+        <div class="card">
+            <div class="card-header">
+                <h3>@ativo.Nome</h3>
+                <button class="favorite-btn" @onclick="() => ToggleFavorito(ativo.Simbolo)">
+                    @(favoritos.Contains(ativo.Simbolo) ? "⭐" : "☆")
+                </button>
+            </div>
+            <p>@ativo.Preco</p>
+        </div>
+    }
+</div>
+
+@code {
+    private string ultimaAtualizacao = DateTime.Now.ToString("dd/MM/yyyy HH:mm");
+
+    private List<Ativo> ativos = new List<Ativo>
+    {
+        new Ativo { Nome = "Bitcoin (BTC)", Simbolo = "BTC" },
+        new Ativo { Nome = "Dólar (USD)", Simbolo = "USD" },
+        new Ativo { Nome = "Euro (EUR)", Simbolo = "EUR" }
+    };
+
+    private HashSet<string> favoritos = new HashSet<string>();
+
+    private string apiKey = "e140c6c10ceb46e987a9ad2d"; // SUA CHAVE DA EXCHANGERATE-API
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CarregarFavoritos();
+
+        foreach (var ativo in ativos)
+        {
+            ativo.Preco = await BuscarCotacao(ativo.Simbolo);
+        }
+    }
+
+    private async Task ToggleFavorito(string simbolo)
+    {
+        if (favoritos.Contains(simbolo))
+            favoritos.Remove(simbolo);
+        else
+            favoritos.Add(simbolo);
+
+        await SalvarFavoritos();
+    }
+
+    private async Task CarregarFavoritos()
+    {
+        var favoritosSalvos = await _localStorage.GetItemAsync<string>("favoritos");
+        if (!string.IsNullOrEmpty(favoritosSalvos))
+            favoritos = new HashSet<string>(favoritosSalvos.Split(','));
+    }
+
+    private async Task SalvarFavoritos()
+    {
+        await _localStorage.SetItemAsync("favoritos", string.Join(",", favoritos));
+    }
+
+    private async Task<string> BuscarCotacao(string ativo)
+    {
+        try
+        {
+            if (ativo == "BTC")
+            {
+                // CoinGecko para Bitcoin
+                var url = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=brl&include_24hr_change=true";
+                var response = await Http.GetStringAsync(url);
+                var json = JsonDocument.Parse(response);
+
+                if (json.RootElement.TryGetProperty("bitcoin", out JsonElement bitcoin))
+                {
+                    var price = bitcoin.GetProperty("brl").GetDecimal();
+                    return $"R$ {price:F2}";
+                }
+            }
+            else if (ativo == "USD" || ativo == "EUR")
+            {
+                // ExchangeRate-API para Dólar e Euro
+                var url = $"https://v6.exchangerate-api.com/v6/{apiKey}/latest/BRL";
+                var response = await Http.GetStringAsync(url);
+                var json = JsonDocument.Parse(response);
+
+                if (json.RootElement.TryGetProperty("conversion_rates", out JsonElement rates))
+                {
+                    if (ativo == "USD" && rates.TryGetProperty("USD", out JsonElement usd))
+                    {
+                        var price = 1 / usd.GetDecimal(); // Converte de BRL para USD
+                        return $"R$ {price:F2}";
+                    }
+                    else if (ativo == "EUR" && rates.TryGetProperty("EUR", out JsonElement eur))
+                    {
+                        var price = 1 / eur.GetDecimal(); // Converte de BRL para EUR
+                        return $"R$ {price:F2}";
+                    }
+                }
+            }
+
+            return "Erro ao obter cotação";
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao buscar cotação: {ex.Message}");
+            return "Erro ao obter cotação";
+        }
+    }
+
+    private class Ativo
+    {
+        public string Nome { get; set; } = string.Empty;
+        public string Simbolo { get; set; } = string.Empty;
+        public string Preco { get; set; } = "Carregando...";
+    }
+}
