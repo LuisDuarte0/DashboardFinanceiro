@@ -5,7 +5,7 @@
 
 
 
-![Demonstração do Projeto](gif.gif)
+![Demonstração do Projeto](gifatualizado.gif)
 
 ---
 
