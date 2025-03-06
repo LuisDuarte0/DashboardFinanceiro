@@ -1081,10 +1081,10 @@ C:\Users\luisc\Downloads\DashboardFinanceiroXP\obj\Debug\net9.0\compressed\zipp8
 C:\Users\luisc\Downloads\DashboardFinanceiroXP\obj\Debug\net9.0\compressed\1v4buh09zz-ace2crbjss.gz
 C:\Users\luisc\Downloads\DashboardFinanceiroXP\obj\Debug\net9.0\compressed\7cv6cqcnoe-0oigvhjeck.gz
 C:\Users\luisc\Downloads\DashboardFinanceiroXP\obj\Debug\net9.0\compressed\yayxfy4ya3-kvo8tk9i02.gz
-C:\Users\luisc\Downloads\DashboardFinanceiroXP\bin\Debug\net9.0\wwwroot\_framework\DashboardFinanceiroXP.zxi21uo308.pdb
-C:\Users\luisc\Downloads\DashboardFinanceiroXP\bin\Debug\net9.0\wwwroot\_framework\DashboardFinanceiroXP.f6a20zr3oa.wasm
-C:\Users\luisc\Downloads\DashboardFinanceiroXP\bin\Debug\net9.0\wwwroot\_framework\DashboardFinanceiroXP.f6a20zr3oa.wasm.gz
-C:\Users\luisc\Downloads\DashboardFinanceiroXP\bin\Debug\net9.0\wwwroot\_framework\DashboardFinanceiroXP.zxi21uo308.pdb.gz
-C:\Users\luisc\Downloads\DashboardFinanceiroXP\obj\Debug\net9.0\compressed\1dy28j52jb-f6a20zr3oa.gz
-C:\Users\luisc\Downloads\DashboardFinanceiroXP\obj\Debug\net9.0\compressed\b444w5h313-zxi21uo308.gz
-C:\Users\luisc\Downloads\DashboardFinanceiroXP\obj\Debug\net9.0\compressed\2yq08qi9gj-kmgxfv5c9p.gz
+C:\Users\luisc\Downloads\DashboardFinanceiroXP\bin\Debug\net9.0\wwwroot\_framework\DashboardFinanceiroXP.q68iybcoze.pdb
+C:\Users\luisc\Downloads\DashboardFinanceiroXP\bin\Debug\net9.0\wwwroot\_framework\DashboardFinanceiroXP.gnrlib14c3.wasm
+C:\Users\luisc\Downloads\DashboardFinanceiroXP\bin\Debug\net9.0\wwwroot\_framework\DashboardFinanceiroXP.gnrlib14c3.wasm.gz
+C:\Users\luisc\Downloads\DashboardFinanceiroXP\bin\Debug\net9.0\wwwroot\_framework\DashboardFinanceiroXP.q68iybcoze.pdb.gz
+C:\Users\luisc\Downloads\DashboardFinanceiroXP\obj\Debug\net9.0\compressed\1dy28j52jb-gnrlib14c3.gz
+C:\Users\luisc\Downloads\DashboardFinanceiroXP\obj\Debug\net9.0\compressed\b444w5h313-q68iybcoze.gz
+C:\Users\luisc\Downloads\DashboardFinanceiroXP\obj\Debug\net9.0\compressed\2yq08qi9gj-pam62h7nn7.gz

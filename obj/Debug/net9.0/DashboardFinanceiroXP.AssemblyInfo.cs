@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DashboardFinanceiroXP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2f55082bf61fc09edd57877294da89b6742a6d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c9cbbcaff07de9b38e0ad60f34ef44a960b8fd4")]
 [assembly: System.Reflection.AssemblyProductAttribute("DashboardFinanceiroXP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DashboardFinanceiroXP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
