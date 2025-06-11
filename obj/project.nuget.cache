@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nnHBdxsSP88=",
+  "dgSpecHash": "W3bpQkZT2ok=",
   "success": true,
-  "projectFilePath": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\DashboardFinanceiroXP.csproj",
+  "projectFilePath": "C:\\Users\\luisc\\DashboardFinanceiro\\DashboardFinanceiroXP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luisc\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
     "C:\\Users\\luisc\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.2\\microsoft.aspnetcore.authorization.9.0.2.nupkg.sha512",

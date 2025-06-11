@@ -13,57 +13,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = DashboardFinanceiroXP
 build_property.RootNamespace = DashboardFinanceiroXP
-build_property.ProjectDir = C:\Users\luisc\Downloads\DashboardFinanceiroXP\
+build_property.ProjectDir = C:\Users\luisc\DashboardFinanceiro\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\luisc\Downloads\DashboardFinanceiroXP
+build_property.MSBuildProjectDirectory = C:\Users\luisc\DashboardFinanceiro
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/luisc/Downloads/DashboardFinanceiroXP/App.razor]
+[C:/Users/luisc/DashboardFinanceiro/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luisc/Downloads/DashboardFinanceiroXP/Pages/Dashboard.razor]
+[C:/Users/luisc/DashboardFinanceiro/Pages/Dashboard.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luisc/Downloads/DashboardFinanceiroXP/Pages/GraficoAcao.razor]
+[C:/Users/luisc/DashboardFinanceiro/Pages/GraficoAcao.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JhZmljb0FjYW8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luisc/Downloads/DashboardFinanceiroXP/Pages/Home.razor]
+[C:/Users/luisc/DashboardFinanceiro/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luisc/Downloads/DashboardFinanceiroXP/Pages/MercadoGlobal.razor]
+[C:/Users/luisc/DashboardFinanceiro/Pages/MercadoGlobal.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVyY2Fkb0dsb2JhbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luisc/Downloads/DashboardFinanceiroXP/Pages/Noticias.razor]
+[C:/Users/luisc/DashboardFinanceiro/Pages/Noticias.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWNpYXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luisc/Downloads/DashboardFinanceiroXP/Pages/PerfilInvestidor.razor]
+[C:/Users/luisc/DashboardFinanceiro/Pages/PerfilInvestidor.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyZmlsSW52ZXN0aWRvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luisc/Downloads/DashboardFinanceiroXP/Pages/Sobremim.razor]
+[C:/Users/luisc/DashboardFinanceiro/Pages/Sobremim.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29icmVtaW0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luisc/Downloads/DashboardFinanceiroXP/_Imports.razor]
+[C:/Users/luisc/DashboardFinanceiro/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luisc/Downloads/DashboardFinanceiroXP/Layout/MainLayout.razor]
+[C:/Users/luisc/DashboardFinanceiro/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-4al0bvlpud
 
-[C:/Users/luisc/Downloads/DashboardFinanceiroXP/Layout/NavMenu.razor]
+[C:/Users/luisc/DashboardFinanceiro/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-905go72imx

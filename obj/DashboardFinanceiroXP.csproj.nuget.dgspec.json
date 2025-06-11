@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\DashboardFinanceiroXP.csproj": {}
+    "C:\\Users\\luisc\\DashboardFinanceiro\\DashboardFinanceiroXP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\DashboardFinanceiroXP.csproj": {
+    "C:\\Users\\luisc\\DashboardFinanceiro\\DashboardFinanceiroXP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\DashboardFinanceiroXP.csproj",
+        "projectUniqueName": "C:\\Users\\luisc\\DashboardFinanceiro\\DashboardFinanceiroXP.csproj",
         "projectName": "DashboardFinanceiroXP",
-        "projectPath": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\DashboardFinanceiroXP.csproj",
+        "projectPath": "C:\\Users\\luisc\\DashboardFinanceiro\\DashboardFinanceiroXP.csproj",
         "packagesPath": "C:\\Users\\luisc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisc\\Downloads\\DashboardFinanceiroXP\\obj\\",
+        "outputPath": "C:\\Users\\luisc\\DashboardFinanceiro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luisc\\AppData\\Roaming\\NuGet\\NuGet.Config"
