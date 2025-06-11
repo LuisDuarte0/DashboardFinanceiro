@@ -1,4 +1,4 @@
-# 📊 Dashboard Financeiro XP  
+# 📊 Dashboard Financeiro 
 >Dashboard financeiro interativo desenvolvido em C# e Blazor, que exibe cotações em tempo real das principais ações da bolsa brasileira, criptomoedas, moedas globais e notícias financeiras. O projeto permite favoritar ativos para fácil acesso e inclui um teste para determinar o perfil de investidor do usuário, armazenando preferências no LocalStorage. Os dados são obtidos via APIs financeiras para garantir informações atualizadas.
 
 >Linguagens/Habilidades trabalhadas: C#, .NET, Blazor, APIs Financeiras, LocalStorage e Gráficos Interativos.
